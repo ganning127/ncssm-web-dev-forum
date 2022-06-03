@@ -1,0 +1,18 @@
+.jumbotron {
+  background: url("../img/bkg_home.png") center center no-repeat;
+  background-size: cover;
+}
+
+.h-70 {
+  min-height: 70vh;
+}
+
+.f {
+  border: 2px solid red;
+}
+
+.purple-btn {
+  background-color: blueviolet;
+  color: white;
+  border: 0;
+}
