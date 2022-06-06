@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Typing Test</title>
+
+    <!-- Bootstrap's CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Content -->
+    <div class="intro">
+      <h1 class="intro-heading font-bold text-4xl">Typing Test</h1>
+      <p class="font-light">
+        This is a typing speed test! Type a letter to begin.
+      </p>
+    </div>
+
+    <div
+      id="main"
+      class="container mx-auto main bg-gray-100 p-8 rounded-md shadow-lg"
+    >
+      <div class="text-container" id="text-container"></div>
+    </div>
+
+    <!-- Hidden until JS tells it to show -->
+    <div class="container mx-auto mt-16 results-container" id="results">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="bg-white rounded-md shadow-md p-4 text-center">
+          <h2 class="text-2xl font-bold">WPM</h2>
+          <span id="wpm" class="text-8xl font-black mt-6 text-green-400"
+            >193</span
+          >
+        </div>
+        <div class="bg-white rounded-md shadow-md p-4 text-center">
+          <h2 class="text-2xl font-bold">Accuracy</h2>
+          <span id="accuracy" class="text-8xl font-black mt-6 text-green-400"
+            >94%</span
+          >
+        </div>
+        <div class="bg-white rounded-md shadow-md p-4 text-center">
+          <h2 class="text-2xl font-bold">Time</h2>
+          <span id="time" class="text-8xl font-black mt-6 text-green-400"
+            >10s</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- <ul class="list-group d-inline-block container-sm results-list">
+        <li class="list-group-item font-weight-bold results-header">
+          Your Results
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>WPM:</span><span class="font-weight-light" id="wpm"></span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Accuracy:</span
+          ><span class="font-weight-light" id="accuracy"></span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Time:</span><span class="font-weight-light" id="time"></span>
+        </li>
+      </ul> -->
+
+    <!-- Our script -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
