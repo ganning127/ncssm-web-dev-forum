@@ -20,7 +20,9 @@ const invalidKeys =
   ); // create a JS array
 // const text =
 //   "Hello there! I really like monkeys, birds, and swimming. I don't really know how monkeys work because they are pretty confusing, but it is okay because I don't know how many things work in the world. Thank you so much for playing my typing test!";
-const text = "hello world";
+
+const text =
+  "Hello there! This is the first time that I am doing a typing test.";
 
 const textArr = text.split(""); // ['H', 'e', 'l', ...]
 

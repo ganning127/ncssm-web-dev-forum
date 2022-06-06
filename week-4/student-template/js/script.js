@@ -18,8 +18,7 @@ const invalidKeys =
   "F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 Escape Tab CapsLock Shift Control Alt Meta ArrowLeft ArrowRight ArrowDown ArrowUp Enter".split(
     " "
   ); // create a JS array
-// const text =
-//   "Hello there! I really like monkeys, birds, and swimming. I don't really know how monkeys work because they are pretty confusing, but it is okay because I don't know how many things work in the world. Thank you so much for playing my typing test!";
-const text = "hello world";
+const text =
+  "Hello there! I really like monkeys, birds, and swimming. I don't really know how monkeys work because they are pretty confusing, but it is okay because I don't know how many things work in the world. Thank you so much for playing my typing test!";
 
 const textArr = text.split(""); // ['H', 'e', 'l', ...]
